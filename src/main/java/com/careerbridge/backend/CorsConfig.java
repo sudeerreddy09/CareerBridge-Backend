@@ -1,4 +1,4 @@
-```java
+
 package com.careerbridge.backend;
 
 import org.springframework.context.annotation.Bean;
@@ -27,4 +27,3 @@ public class CorsConfig {
         };
     }
 }
-```
