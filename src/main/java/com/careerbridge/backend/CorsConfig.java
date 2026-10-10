@@ -1,4 +1,4 @@
-
+```java
 package com.careerbridge.backend;
 
 import org.springframework.context.annotation.Bean;
@@ -16,6 +16,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                     .allowedOrigins(
+                        "https://24eg107e53-careerbridge.vercel.app",
                         "https://career-bridge-frontend-mu.vercel.app",
                         "http://localhost:5173"
                     )
@@ -26,3 +27,4 @@ public class CorsConfig {
         };
     }
 }
+```
